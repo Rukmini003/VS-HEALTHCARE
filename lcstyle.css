@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    font-family: 'Ubuntu',sans-serif;
+    color: #fff;
+    background: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 90px;
+    box-sizing: border-box;
+    position: fixed;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.75);
+}
+    
+
+.nav span{
+    font-size: 25px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav ul li a:hover{
+    color: #B05A7A;
+}
+.follow_content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    
+}
+.follow_content i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.follow_content i:hover{
+    color: crimson;
+
+}
+.follow_content a{
+    color: black;
+}
+.footer{
+    height: 10vh;
+    width: 100vw;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.login_content{
+    height: 50vh;
+    display: flex;
+        flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+}
+.input_text{
+        width: 70vw;
+            height: 2vh;
+            padding-top: 145px;
+            font-size: 20px;
+            border-radius: 5px;
+
+}
+.fp:hover{
+    color: #B05A7A;
+}
+.button{
+    background-color: crimson;
+    display: inline;
+    width: fit-content;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button:hover{
+    background-color: #B05A7A;}
+.header{
+        height: 26vh;
+            width: 100vw;
+            /* background-color: burlywood; */
+            padding-top: 235px;
+            padding-bottom: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+    }
+.header p{
+        text-align: center;
+    }
+    
+ .header_p{
+        font-size: 35px;
+        font-weight: 800;
+    }
+.header_int{
+        color: green;}
