@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .main{
@@ -46,10 +46,10 @@ a{
     list-style-type: none;
     cursor: pointer;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .nav ul li a:hover{
-    color: white;
+    color: black;
 }
 .follow_content{
     display: flex;
@@ -98,3 +98,22 @@ a{
 }
 .header_int{
     color: green;}
+.nav ul li a i {
+    margin-top: 10px;
+    color: #fff;
+    display: inline;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul li input {
+    border: none;
+    border-radius: 6px;
+    display: inline;
+    margin-bottom: 20px;
+    height: 25px;
+}
+.nav ul li A{
+    color: #fff;
+    padding-top: 15px;
+}
