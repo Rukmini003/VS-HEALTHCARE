@@ -49,7 +49,7 @@ a{
     list-style-type: none;
     cursor: pointer;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .nav ul li a:hover{
     color: black;
@@ -162,6 +162,7 @@ a{
     gap: 12px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .content_left{
     height: 100%;
@@ -271,4 +272,7 @@ a{
 }
 .services a:hover{
     color:white;
+}
+.services .card{
+    padding-bottom: 5px;
 }
