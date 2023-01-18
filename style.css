@@ -284,3 +284,15 @@ a{
     align-items: center;
     justify-content: center;
 }
+.nav ul li input {
+    border: none;
+    border-radius: 6px;
+    display: inline;
+    margin-bottom: 20px;
+    height: 25px;
+}
+.nav ul li A{
+    color: #fff;
+    padding-top: 15px;
+}
+
