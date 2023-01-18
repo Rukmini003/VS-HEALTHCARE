@@ -130,11 +130,14 @@ a{
     background-color:#B05A7A;
 }
 .header{
-    height: fit-content;
+    height:26vh ;
     width: 100vw;
     /* background-color: burlywood; */
     padding-top: 5px;
     padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
 }
 .header p{
     text-align: center;
