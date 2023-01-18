@@ -269,3 +269,6 @@ a{
 .services a{
     color:black;
 }
+.services a:hover{
+    color:white;
+}
