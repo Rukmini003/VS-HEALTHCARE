@@ -9,7 +9,7 @@
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .main{
@@ -52,7 +52,7 @@ a{
     font-weight: 700;
 }
 .nav ul li a:hover{
-    color: white;
+    color: black;
 }
 
 .intro{
