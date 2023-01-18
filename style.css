@@ -125,6 +125,7 @@ a{
     padding: 12px;
     cursor: pointer;
     border-radius: 12px;
+    list-style:none;
 }
 .button:hover{
     background-color:#B05A7A;
@@ -264,4 +265,7 @@ a{
 .fp:hover{
     color: blue;
     cursor: pointer;
+}
+.services a{
+    color:black;
 }
